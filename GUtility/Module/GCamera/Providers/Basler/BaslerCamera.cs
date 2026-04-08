@@ -37,18 +37,48 @@ namespace GUtility.Module.GCamera.Providers.Basler
         #region ===== Properties =====
 
         //-------- Private Fields --------
+
+        /// <summary>
+        /// 執行緒同步鎖，避免多執行緒同時操作相機資源。
+        /// </summary>
         private readonly object _syncLock = new object();
 
+        /// <summary>
+        /// Basler SDK 相機物件。
+        /// </summary>
         private Camera _camera;
+
+        /// <summary>
+        /// Basler SDK 像素格式轉換器。
+        /// </summary>
         private PixelDataConverter _converter;
+
+        /// <summary>
+        /// 背景抓圖執行緒。
+        /// </summary>
         private Thread _grabThread;
 
+        /// <summary>
+        /// 控制抓圖執行緒是否持續執行。
+        /// </summary>
         private volatile bool _grabThreadRunning;
+
+        /// <summary>
+        /// 影像流水號計數器。
+        /// </summary>
         private long _frameNumber;
 
+        /// <summary>
+        /// RGB 圖像通道數。
+        /// RGB8packed = 3 channels。
+        /// </summary>
         private const int RGB_CHANNEL_COUNT = 3;
 
         //-------- Public Properties --------
+
+        /// <summary>
+        /// 目前相機品牌。
+        /// </summary>
         public override CameraBrand Brand
         {
             get { return CameraBrand.Basler; }
@@ -58,6 +88,10 @@ namespace GUtility.Module.GCamera.Providers.Basler
 
         //-------- Constructor --------
 
+        /// <summary>
+        /// 建立 BaslerCamera 實例。
+        /// 初始化轉換器與內部狀態。
+        /// </summary>
         public BaslerCamera() : base()
         {
             _converter = new PixelDataConverter();
@@ -71,8 +105,13 @@ namespace GUtility.Module.GCamera.Providers.Basler
         //-------- Public Methods --------
 
         /// <summary>
-        /// 搜尋目前可用的 Basler 相機序號
+        /// 搜尋目前電腦可偵測到的 Basler 相機序號清單。
+        /// 
+        /// 用途：
+        /// - 系統啟動時列出可用相機
+        /// - 給 UI 或設定流程做設備選擇
         /// </summary>
+        /// <returns>Basler 相機序號列表</returns>
         public static List<string> SearchAvailableCamera()
         {
             List<string> serials = new List<string>();
@@ -89,6 +128,15 @@ namespace GUtility.Module.GCamera.Providers.Basler
             return serials;
         }
 
+        /// <summary>
+        /// 初始化相機設定。
+        /// 
+        /// 功能：
+        /// - 呼叫基底類別初始化流程
+        /// - 強制將 Brand 設定為 Basler
+        /// </summary>
+        /// <param name="config">相機設定物件</param>
+        /// <returns>初始化成功回傳 true，否則 false</returns>
         public override bool Initialize(CameraConfig config)
         {
             if (!base.Initialize(config))
@@ -100,6 +148,16 @@ namespace GUtility.Module.GCamera.Providers.Basler
             return true;
         }
 
+        /// <summary>
+        /// 開啟指定 Basler 相機。
+        /// 
+        /// 流程：
+        /// 1. 依 _config.SerialNumber 搜尋相機
+        /// 2. 建立 Basler Camera 物件
+        /// 3. 呼叫 SDK 開啟相機
+        /// 4. 套用初始化參數（Trigger / Exposure / Gain / FrameRate）
+        /// </summary>
+        /// <returns>開啟成功回傳 true，否則 false</returns>
         public override bool Open()
         {
             lock (_syncLock)
@@ -156,6 +214,15 @@ namespace GUtility.Module.GCamera.Providers.Basler
             }
         }
 
+        /// <summary>
+        /// 關閉相機並釋放資源。
+        /// 
+        /// 流程：
+        /// 1. 停止抓圖執行緒
+        /// 2. 停止 StreamGrabber
+        /// 3. 關閉並釋放 Basler Camera
+        /// </summary>
+        /// <returns>關閉成功回傳 true，否則 false</returns>
         public override bool Close()
         {
             lock (_syncLock)
@@ -180,6 +247,15 @@ namespace GUtility.Module.GCamera.Providers.Basler
             }
         }
 
+        /// <summary>
+        /// 開始連續取像。
+        /// 
+        /// 功能：
+        /// - 確保相機已開啟
+        /// - 將 AcquisitionMode 設為 Continuous
+        /// - 啟動背景抓圖執行緒 GrabLoop
+        /// </summary>
+        /// <returns>啟動成功回傳 true，否則 false</returns>
         public override bool StartGrabbing()
         {
             lock (_syncLock)
@@ -218,6 +294,15 @@ namespace GUtility.Module.GCamera.Providers.Basler
             }
         }
 
+        /// <summary>
+        /// 停止連續取像。
+        /// 
+        /// 功能：
+        /// - 停止背景抓圖執行緒
+        /// - 停止 StreamGrabber
+        /// - 更新狀態為未抓圖
+        /// </summary>
+        /// <returns>停止成功回傳 true，否則 false</returns>
         public override bool StopGrabbing()
         {
             lock (_syncLock)
@@ -236,6 +321,14 @@ namespace GUtility.Module.GCamera.Providers.Basler
             }
         }
 
+        /// <summary>
+        /// 執行一次軟體觸發。
+        /// 
+        /// 前提：
+        /// - 相機已開啟
+        /// - TriggerMode 需切到 Software
+        /// </summary>
+        /// <returns>觸發成功回傳 true，否則 false</returns>
         public override bool SoftTrigger()
         {
             lock (_syncLock)
@@ -263,6 +356,16 @@ namespace GUtility.Module.GCamera.Providers.Basler
             }
         }
 
+        /// <summary>
+        /// 設定觸發模式。
+        /// 
+        /// 支援模式：
+        /// - Continuous：連續取像，不啟用 Trigger
+        /// - Software：軟體觸發
+        /// - Hardware：硬體觸發（目前僅開啟 Trigger，實際輸入線需依機型再補）
+        /// </summary>
+        /// <param name="mode">觸發模式</param>
+        /// <returns>設定成功回傳 true，否則 false</returns>
         public override bool SetTriggerMode(TriggerMode mode)
         {
             lock (_syncLock)
@@ -310,6 +413,15 @@ namespace GUtility.Module.GCamera.Providers.Basler
             }
         }
 
+        /// <summary>
+        /// 設定曝光時間。
+        /// 
+        /// 功能：
+        /// - 同步更新 _config.Exposure
+        /// - 若相機已連線，則立即寫入 Basler 參數節點
+        /// </summary>
+        /// <param name="value">曝光時間</param>
+        /// <returns>設定成功回傳 true，否則 false</returns>
         public override bool SetExposure(double value)
         {
             lock (_syncLock)
@@ -337,6 +449,15 @@ namespace GUtility.Module.GCamera.Providers.Basler
             }
         }
 
+        /// <summary>
+        /// 設定增益。
+        /// 
+        /// 功能：
+        /// - 同步更新 _config.Gain
+        /// - 若相機已連線，則立即寫入 Basler 參數節點
+        /// </summary>
+        /// <param name="value">增益值</param>
+        /// <returns>設定成功回傳 true，否則 false</returns>
         public override bool SetGain(double value)
         {
             lock (_syncLock)
@@ -364,6 +485,15 @@ namespace GUtility.Module.GCamera.Providers.Basler
             }
         }
 
+        /// <summary>
+        /// 設定幀率。
+        /// 
+        /// 注意：
+        /// - 不同 Basler 型號的 FrameRate 節點支援度不同
+        /// - 若節點存在且可寫，才會實際下參數
+        /// </summary>
+        /// <param name="value">幀率值</param>
+        /// <returns>設定成功回傳 true，否則 false</returns>
         public override bool SetFrameRate(double value)
         {
             lock (_syncLock)
@@ -395,6 +525,15 @@ namespace GUtility.Module.GCamera.Providers.Basler
             }
         }
 
+        /// <summary>
+        /// 取得相機資訊。
+        /// 
+        /// 內容包含：
+        /// - CameraId / CameraName / Brand
+        /// - Vendor / Model / SerialNumber / IpAddress
+        /// - MaxWidth / MaxHeight / PixelFormat
+        /// </summary>
+        /// <returns>相機資訊物件</returns>
         public override CameraInfo GetCameraInfo()
         {
             CameraInfo info = new CameraInfo();
@@ -437,6 +576,13 @@ namespace GUtility.Module.GCamera.Providers.Basler
             return info;
         }
 
+        /// <summary>
+        /// 釋放相機資源。
+        /// 
+        /// 流程：
+        /// - 先執行 Close()
+        /// - 再呼叫基底類別 Dispose()
+        /// </summary>
         public override void Dispose()
         {
             try
@@ -453,8 +599,20 @@ namespace GUtility.Module.GCamera.Providers.Basler
 
         #region ===== Basler Methods =====
 
-        /// 單張取像
+        /// <summary>
+        /// 單張取像。
+        /// 
+        /// 功能：
+        /// - 將 AcquisitionMode 設為 SingleFrame
+        /// - 透過 GrabOne 擷取一張影像
+        /// - 將結果轉為 Bitmap 回傳
+        /// 
+        /// 適用情境：
+        /// - 測試畫面
+        /// - 手動拍照
+        /// - 工程模式單次取像
         /// </summary>
+        /// <returns>成功回傳 Bitmap，失敗回傳 null</returns>
         public Bitmap GrabOne()
         {
             lock (_syncLock)
@@ -483,6 +641,16 @@ namespace GUtility.Module.GCamera.Providers.Basler
             }
         }
 
+        /// <summary>
+        /// 套用相機開啟後的初始化參數。
+        /// 
+        /// 內容包含：
+        /// - AcquisitionMode = Continuous
+        /// - TriggerMode
+        /// - Exposure
+        /// - Gain
+        /// - FrameRate
+        /// </summary>
         private void ApplyOpenParameters()
         {
             if (_camera == null || !_camera.IsOpen)
@@ -503,6 +671,19 @@ namespace GUtility.Module.GCamera.Providers.Basler
 
         #region ===== Private Methods =====
 
+        /// <summary>
+        /// 背景連續抓圖迴圈。
+        /// 
+        /// 流程：
+        /// 1. 啟動 StreamGrabber
+        /// 2. 持續 RetrieveResult
+        /// 3. 將每張影像轉為 CameraFrame
+        /// 4. 透過 RaiseImageGrabbed 發送事件
+        /// 
+        /// 注意：
+        /// - 執行於背景執行緒
+        /// - 若擷取失敗，會短暫休眠後繼續
+        /// </summary>
         private void GrabLoop()
         {
             try
@@ -554,6 +735,18 @@ namespace GUtility.Module.GCamera.Providers.Basler
             }
         }
 
+        /// <summary>
+        /// 內部停止抓圖流程。
+        /// 
+        /// 功能：
+        /// - 停止抓圖執行緒旗標
+        /// - 等待執行緒結束
+        /// - 嘗試中止 StreamGrabber
+        /// 
+        /// 注意：
+        /// - 此方法不關閉相機
+        /// - 只負責停止抓圖
+        /// </summary>
         private void StopGrabbingInternal()
         {
             _grabThreadRunning = false;
@@ -589,6 +782,16 @@ namespace GUtility.Module.GCamera.Providers.Basler
             _status.IsGrabbing = false;
         }
 
+
+        /// <summary>
+        /// 安全地關閉並釋放 Basler Camera 物件。
+        /// 
+        /// 功能：
+        /// - 停止 StreamGrabber
+        /// - 關閉相機
+        /// - Dispose SDK 資源
+        /// - 清除 _camera 參考
+        /// </summary>
         private void SafeCloseAndDisposeCamera()
         {
             if (_camera == null)
@@ -623,6 +826,20 @@ namespace GUtility.Module.GCamera.Providers.Basler
             _camera = null;
         }
 
+        /// <summary>
+        /// 將 Basler IGrabResult 轉為系統內部的 CameraFrame。
+        /// 
+        /// 流程：
+        /// 1. 建立 RGB byte[] 緩衝區
+        /// 2. 使用 GCHandle 固定記憶體位址
+        /// 3. 透過 PixelDataConverter 轉為 RGB8packed
+        /// 4. 建立 CameraFrame 並填入影像資料
+        /// 
+        /// 注意：
+        /// - 本方法使用 pinned memory，結束後一定要 Free()
+        /// </summary>
+        /// <param name="result">Basler 抓圖結果</param>
+        /// <returns>轉換後的 CameraFrame</returns>
         private CameraFrame ConvertToCameraFrame(IGrabResult result)
         {
             byte[] buffer;
@@ -657,6 +874,18 @@ namespace GUtility.Module.GCamera.Providers.Basler
             }
         }
 
+        /// <summary>
+        /// 將 Basler IGrabResult 轉為 Bitmap。
+        /// 
+        /// 適用：
+        /// - 單張取像
+        /// - UI 測試顯示
+        /// 
+        /// 注意：
+        /// - 目前輸出為 24bpp RGB
+        /// </summary>
+        /// <param name="result">Basler 抓圖結果</param>
+        /// <returns>Bitmap 影像</returns>
         private Bitmap ConvertToBitmap(IGrabResult result)
         {
             Bitmap bitmap;
