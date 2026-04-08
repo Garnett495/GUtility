@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0118BF80-40E9-4459-BF9F-549D00B8D8C7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GUtility</RootNamespace>
+    <AssemblyName>GUtility</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Basler.Pylon, Version=1.2.0.0, Culture=neutral, PublicKeyToken=e389355f398382ab, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\GUtility_0323\GUtility\DLLs\Basler.Pylon.dll</HintPath>
+    </Reference>
+    <Reference Include="NModbus, Version=3.0.81.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\TSMC_15B_PVD Nozzle CCD\Software\PVDNozzleInspector_0306\packages\NModbus.3.0.81\lib\net46\NModbus.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Modbus\ModbusBase.cs" />
+    <Compile Include="Modbus\ModbusClient.cs" />
+    <Compile Include="Modbus\ModbusServer.cs" />
+    <Compile Include="Module\AIOModule\AIODeviceController.cs" />
+    <Compile Include="Module\AIOModule\Devices\DAM8DAController.cs" />
+    <Compile Include="Module\AIOModule\ModbusAODeviceBase.cs" />
+    <Compile Include="Module\GCamera\Abstraction\ICamera.cs" />
+    <Compile Include="Module\GCamera\Abstraction\ICameraFactory.cs" />
+    <Compile Include="Module\GCamera\Core\CameraBase.cs" />
+    <Compile Include="Module\GCamera\Core\CameraFactory.cs" />
+    <Compile Include="Module\GCamera\Core\CameraManager.cs" />
+    <Compile Include="Module\GCamera\Core\CameraParameterNames.cs" />
+    <Compile Include="Module\GCamera\Enums\CameraBrand.cs" />
+    <Compile Include="Module\GCamera\Enums\TriggerMode.cs" />
+    <Compile Include="Module\GCamera\Events\CameraErrorEventArgs.cs" />
+    <Compile Include="Module\GCamera\Events\CameraImageEventArgs.cs" />
+    <Compile Include="Module\GCamera\Example\BasicUsage\CameraBasicExample.cs" />
+    <Compile Include="Module\GCamera\Example\MultiCamera\MultiCameraExample.cs" />
+    <Compile Include="Module\GCamera\Models\CameraConfig.cs" />
+    <Compile Include="Module\GCamera\Models\CameraFrame.cs" />
+    <Compile Include="Module\GCamera\Models\CameraInfo.cs" />
+    <Compile Include="Module\GCamera\Models\CameraStatus.cs" />
+    <Compile Include="Module\GCamera\Providers\Basler\BaslerCamera.cs" />
+    <Compile Include="Module\GCamera\Providers\Dalsa\DalsaCamera.cs" />
+    <Compile Include="Module\GCamera\Providers\Hikvision\HikCamera.cs" />
+    <Compile Include="MotorController\CommandScheduler.cs" />
+    <Compile Include="MotorController\ModbusTransport.cs" />
+    <Compile Include="MotorController\MotorAgent.cs" />
+    <Compile Include="MotorController\MotorCommand.cs" />
+    <Compile Include="MotorController\MotorConfig.cs" />
+    <Compile Include="MotorController\MotorControlMamager.cs" />
+    <Compile Include="MotorController\MotorEnums.cs" />
+    <Compile Include="MotorController\MotorState.cs" />
+    <Compile Include="MotorController\OrientalMotorProtocol.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Ini\" />
+    <Folder Include="Log\" />
+    <Folder Include="Module\GCamera\Buffer\" />
+    <Folder Include="Module\GCamera\Converters\" />
+    <Folder Include="Module\GCamera\Diagnostics\" />
+    <Folder Include="Module\GCamera\Exceptions\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
