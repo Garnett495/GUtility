@@ -51,6 +51,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Log\Examples\Example_BasicUsage.cs" />
+    <Compile Include="Log\Examples\Example_ExceptionUsage.cs" />
+    <Compile Include="Log\Examples\Example_PropertiesUsage.cs" />
+    <Compile Include="Log\GLog.cs" />
+    <Compile Include="Log\GLogConfig.cs" />
+    <Compile Include="Log\GLogEntry.cs" />
+    <Compile Include="Log\GLogLevel.cs" />
+    <Compile Include="Log\GLogManager.cs" />
+    <Compile Include="Log\IGLogWriter.cs" />
+    <Compile Include="Log\Writters\GConsoleLogWriter.cs" />
+    <Compile Include="Log\Writters\GFileLogWriter.cs" />
+    <Compile Include="Log\Writters\GUiLogWriter.cs" />
     <Compile Include="Modbus\ModbusBase.cs" />
     <Compile Include="Modbus\ModbusClient.cs" />
     <Compile Include="Modbus\ModbusServer.cs" />
@@ -92,7 +104,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Ini\" />
-    <Folder Include="Log\" />
     <Folder Include="Module\GCamera\Buffer\" />
     <Folder Include="Module\GCamera\Converters\" />
     <Folder Include="Module\GCamera\Diagnostics\" />
