@@ -18,8 +18,18 @@ using System.Threading.Tasks;
 namespace GUtility.Module.GCamera.Providers.Basler
 {
     /// <summary>
-    /// Basler 相機骨架
-    /// 目前先不綁 SDK，先把架構跑起來
+    /// Basler 相機實作類別
+    /// 
+    /// 功能說明：
+    /// 1. 依 SerialNumber 開啟指定 Basler 相機
+    /// 2. 支援連續取像與單張取像
+    /// 3. 支援軟體觸發模式
+    /// 4. 支援曝光、增益、幀率設定
+    /// 5. 將 Basler SDK 的影像結果轉為系統內的 CameraFrame
+    /// 
+    /// 注意：
+    /// - 本類別依賴 Basler.Pylon SDK
+    /// - 本類別僅處理相機控制，不負責 UI 顯示
     /// </summary>
     public class BaslerCamera : CameraBase
     {
