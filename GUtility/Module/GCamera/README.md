@@ -3,6 +3,9 @@
 ## 功能概述
 `BaslerCamera` 為 `GUtility.Module.GCamera` 中 Basler 相機的實作類別，封裝 `Basler pylon SDK`，提供 AOI 系統中常用的相機控制能力。
 
+- 目前只實作`BaslerCamera` ，
+- `Dalsa`, `Hikvision` 尚未完成
+
 主要目標：
 - 統一相機操作介面（避免上層依賴 SDK）
 - 提供穩定的取像流程（Thread-safe）
