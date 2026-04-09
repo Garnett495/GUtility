@@ -47,6 +47,7 @@ GDeviceBase
 
 
 ## 資料夾結構
+```
 GUtility.Module.IO
 │
 ├── Abstractions
@@ -78,6 +79,7 @@ GUtility.Module.IO
 │
 └── Transport
     └── ModbusTcpTransport.cs
+```
 
 
 ## 使用範例
