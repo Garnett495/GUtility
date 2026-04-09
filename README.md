@@ -1,128 +1,261 @@
-# BaslerCamera 功能說明
+# 📦 GUtility
 
-## 1. 功能概述
-`BaslerCamera` 為 `GUtility.Module.GCamera` 之 Basler 相機實作類別，負責封裝 Basler.Pylon SDK 的基本相機控制功能。
+## 簡介
+GUtility 是一套針對 AOI（Automated Optical Inspection）與工業自動化設備整合所設計的 C# 模組化工具庫。
 
-目前支援：
-- 依相機序號（SerialNumber）開啟指定相機
-- 搜尋可用 Basler 相機
-- 開啟 / 關閉相機
-- 開始 / 停止連續取像
-- 軟體觸發（Software Trigger）
-- 單張取像（GrabOne）
-- 曝光、增益、幀率設定
-- 相機資訊讀取
-- 將 Basler 影像結果轉為系統內部 `CameraFrame`
+此專案的核心目標：
+- 降低客製化專案重工
+- 建立可重用設備控制模組
+- 統一常用功能（Log / Recipe / AutoPurge）
+- 提升系統整合效率與維護性
+
+目前專案以 `.NET Framework 4.7.2` 為基礎，並持續擴展各類設備控制能力。
 
 ---
 
-## 2. 檔案與注意事項
-GUtility/Module/GCamera/Providers/Basler/BaslerCamera.cs
+## 功能特色 🚀
+- 🧱 模組化設計（Camera / IO / Motor / Modbus）
+- 🔌 支援工業設備整合
+- 📝 提供通用功能（Log / Recipe / AutoPurge）
+- ⚙️ 支援 Modbus Server / Client
+- 🔄 易於擴展不同設備與品牌
+- 🧩 適合作為 AOI 軟體基礎框架
 
-需先安裝 `Basler pylon SDK`，並於專案中加入：
-`Basler.Pylon.dll`
+---
 
-注意：
+## 專案結構
 
-不可只用 NuGet 安裝
-需安裝完整 pylon SDK 與 .NET API
-專案平台建議使用 x64
+```text
+GUtility
+│
+├── Common
+│   ├── AutoPurge
+│   ├── Ini (未實作)
+│   ├── Log
+│   └── Recipe
+│
+├── Modbus
+├── Module
+│   ├── GCamera
+│   └── IO
+│
+└── MotorController
+```
 
-4. 主要方法說明
-`SearchAvailableCamera()`
+## 各模組功能說明
 
-搜尋目前可用的 Basler 相機序號清單。
+## Common（通用功能）
 
-`Initialize(CameraConfig config)`
+此資料夾提供跨專案共用的基礎功能，不依賴特定設備。
 
-初始化相機設定，並將 Brand 指定為 Basler。
+### AutoPurge
 
-`Open()`
+自動清除檔案機制，避免設備長時間運行造成硬碟容量不足。
 
-依 CameraConfig.SerialNumber 搜尋並開啟指定相機，成功後自動套用初始化參數。
+功能
+- 監控磁碟容量使用率
+- 超過門檻（如 80%）開始清除
+- 依建立時間刪除最舊檔案
+- 清除至安全容量後停止
 
-`Close()`
+應用
+- AOI 圖片資料夾
+- 長時間 Log 累積
 
-停止抓圖、關閉相機並釋放 SDK 資源。
+### Log
 
-`StartGrabbing()`
+系統記錄功能，支援 .txt 輸出。
 
-啟動背景抓圖執行緒，進入連續取像模式。
+功能
+- 記錄系統運行資訊
+- 記錄錯誤 / 警告
+- 支援除錯與問題追蹤
 
-`StopGrabbing()`
-
-停止背景抓圖執行緒與 StreamGrabber。
-
-`SoftTrigger()`
-
-執行一次 Basler 軟體觸發。
-
-`SetTriggerMode(TriggerMode mode)`
-
-設定取像模式：
-
-`Continuous`
-`Software`
-`Hardware`
+應用
+- 設備狀態紀錄
+- 通訊異常
+- 檢測流程紀錄
 
 
-`SetExposure(double value)`
+### Recipe
 
-設定曝光時間。
+參數與配方管理模組。
 
-`SetGain(double value)`
+功能
+- 支援 XML / JSON 序列化
+- 泛型設計（可擴展不同模型）
+- 搭配 enum 避免錯誤輸入
 
-設定增益。
+應用
+- AOI 檢測參數
+- ROI 設定
+- 多產品切換
 
-`SetFrameRate(double value)`
 
-設定幀率；若機型節點不支援，則僅保留設定值。
+### Ini（尚未實作）
 
-`GetCameraInfo()`
+預計提供 .ini 設定檔讀寫功能。
 
-讀取目前相機的基本資訊，例如：
+預計用途
+- 設備 IP / Port
+- 系統初始化設定
+- 路徑設定
 
-型號
-序號
-IP
-最大解析度
-PixelFormat
 
-`GrabOne()`
+### Modbus（通訊模組）
 
-單張取像並回傳 Bitmap。
+提供 Modbus 通訊能力，目前已具備基本架構。
 
-5. 影像事件流程
+已實作
+- Modbus Server
+- Modbus Client
 
-`StartGrabbing()` 後會啟動背景執行緒 `GrabLoop()`，當抓到影像時會：
+功能
+- 建立 Server / Client 通訊
+- 控制啟動與停止
+- 狀態管理（如 IsRunning）
+- 未來規劃
+- 封裝常用讀寫方法（Coil / Register）
+- 建立標準通訊 API
+- 提供完整使用範例
 
-將 `IGrabResult` 轉為 `CameraFrame`
-呼叫 `RaiseImageGrabbed(frame)`
-由上層模組接收影像事件並處理
+應用
+- IO / AIO 控制
+- 設備間資料交換
+- AOI 結果輸出
 
-6. 內部轉換流程
-`ConvertToCameraFrame(IGrabResult result)`
 
-將 Basler 影像結果轉為系統內部 `CameraFrame`：
+## Module（設備模組）
 
-轉為 RGB8packed
-存入 byte[] Buffer
-記錄 Width / Height / Timestamp / FrameNumber
+此層負責「實際設備控制」，設計目標為模組化與可擴展。
 
-`ConvertToBitmap(IGrabResult result)`
+### GCamera（相機模組）
 
-將 Basler 影像結果轉為 Bitmap，主要供單張取像或測試顯示使用。
+目前支援：
+- Basler Camera（Pylon SDK）
 
-7. 設計重點
-- Basler SDK 操作集中於 Provider 層
-- 上層不直接依賴 Basler SDK 型別
-- 抓圖執行緒與相機控制以 _syncLock 保護
-- `StopGrabbing()` 與 `Close()` 責任分離：
-- `StopGrabbing()`：只停抓圖
-- `Close()`：停抓圖 + 關閉相機 + 釋放資源
+尚未實作：
+- Dalsa
+- Hikvision（海康）
 
-8. 已知限制
-- `SetFrameRate()` 依不同 Basler 型號，節點支援可能不同
-- `Hardware Trigger` 目前僅設定 TriggerMode，尚未額外細分 TriggerSource/Line
-- `GrabOne()` 回傳 Bitmap，主要供測試與工程模式使用
-- 目前 `ConvertToCameraFrame()` 固定輸出為 RGB8packed
+功能
+
+- 相機開啟 / 關閉
+- 開始 / 停止取像
+- 影像回調事件
+
+設計方向
+- 統一相機控制介面
+- 支援多品牌擴展
+
+
+### IO（DIO / AIO 模組）
+
+用於控制工業設備輸入輸出。
+
+目前支援：
+- 聚英 DAM0888（DIO）
+- 聚英 DAM8DA（AIO）
+
+功能
+- DIO 點位讀寫
+- AIO 類比輸出控制
+- 整合 Modbus 通訊
+
+應用
+- 設備訊號控制（Busy / Ready / Alarm）
+- AOI 結果輸出
+- 外部設備觸發
+
+
+## MotorController（馬達控制）
+
+負責馬達控制與通訊管理。
+
+目前支援：
+- Oriental Motor（透過 Modbus RS485）
+
+功能
+
+- 馬達連線管理
+- 移動控制（Move）
+- 停止控制（Stop）
+- 狀態刷新（位置 / 狀態）
+
+設計方向
+- 依通訊方式擴展（RS485 / Ethernet）
+- 依品牌擴展（不同廠牌馬達）
+
+應用
+- AOI 載台移動
+- 定位控制
+- 自動化流程控制
+
+
+## 設計目標
+
+GUtility 並非單一應用程式，而是：
+
+- 可重用模組集合
+- AOI 專案基礎框架
+- 自動化設備整合工具庫
+
+讓不同專案可以：
+- 快速組合功能
+- 減少重寫設備控制
+- 提升開發效率
+
+
+## 開發環境
+Language：C#
+Framework：.NET Framework 4.7.2
+IDE：Visual Studio 2015
+
+
+## 專案狀態
+
+### 目前已完成：
+`Common.Log`
+`Common.Recipe`
+`Common.AutoPurge`
+`Modbus（Server / Client 基礎）`
+`GCamera（Basler）`
+`IO（DAM0888 / DAM8DA）`
+`MotorController（OrientalMotor RS485）`
+
+### 持續開發中：
+- Ini 功能
+- 多品牌相機支援
+- Modbus 通用 API
+- 更多設備模組
+- Example 使用範例
+
+
+## License
+
+MIT License
+
+## License
+
+MIT License
+
+Copyright (c) 2026 GUtility
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
