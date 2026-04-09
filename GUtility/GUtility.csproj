@@ -51,18 +51,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Log\Examples\Example_BasicUsage.cs" />
-    <Compile Include="Log\Examples\Example_ExceptionUsage.cs" />
-    <Compile Include="Log\Examples\Example_PropertiesUsage.cs" />
-    <Compile Include="Log\GLog.cs" />
-    <Compile Include="Log\GLogConfig.cs" />
-    <Compile Include="Log\GLogEntry.cs" />
-    <Compile Include="Log\GLogLevel.cs" />
-    <Compile Include="Log\GLogManager.cs" />
-    <Compile Include="Log\IGLogWriter.cs" />
-    <Compile Include="Log\Writters\GConsoleLogWriter.cs" />
-    <Compile Include="Log\Writters\GFileLogWriter.cs" />
-    <Compile Include="Log\Writters\GUiLogWriter.cs" />
+    <Compile Include="Common\AutoPurge\AutoImagePurgeOptions.cs" />
+    <Compile Include="Common\AutoPurge\AutoImagePurgeResult.cs" />
+    <Compile Include="Common\AutoPurge\AutoImagePurgeService.cs" />
+    <Compile Include="Common\AutoPurge\Example.cs" />
+    <Compile Include="Common\Log\Examples\Example_BasicUsage.cs" />
+    <Compile Include="Common\Log\Examples\Example_ExceptionUsage.cs" />
+    <Compile Include="Common\Log\Examples\Example_PropertiesUsage.cs" />
+    <Compile Include="Common\Log\GLog.cs" />
+    <Compile Include="Common\Log\GLogConfig.cs" />
+    <Compile Include="Common\Log\GLogEntry.cs" />
+    <Compile Include="Common\Log\GLogLevel.cs" />
+    <Compile Include="Common\Log\GLogManager.cs" />
+    <Compile Include="Common\Log\IGLogWriter.cs" />
+    <Compile Include="Common\Log\Writters\GConsoleLogWriter.cs" />
+    <Compile Include="Common\Log\Writters\GFileLogWriter.cs" />
+    <Compile Include="Common\Log\Writters\GUiLogWriter.cs" />
     <Compile Include="Modbus\ModbusBase.cs" />
     <Compile Include="Modbus\ModbusClient.cs" />
     <Compile Include="Modbus\ModbusServer.cs" />
@@ -123,7 +127,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Ini\" />
+    <Folder Include="Common\Ini\" />
     <Folder Include="Module\GCamera\Buffer\" />
     <Folder Include="Module\GCamera\Converters\" />
     <Folder Include="Module\GCamera\Diagnostics\" />

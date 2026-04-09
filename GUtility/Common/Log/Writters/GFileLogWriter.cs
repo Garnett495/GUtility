@@ -2,7 +2,7 @@
 using System.IO;
 using System.Text;
 
-namespace GUtility.Log.Writers
+namespace GUtility.Common.Log.Writers
 {
     /// <summary>
     /// 將 Log 寫入 txt 檔案。

@@ -1,5 +1,5 @@
 ﻿using System;
-using GUtility.Log;
+using GUtility.Common.Log;
 
 namespace GUtility.Examples
 {

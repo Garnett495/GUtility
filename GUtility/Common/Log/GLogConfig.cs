@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace GUtility.Log
+namespace GUtility.Common.Log
 {
     /// <summary>
     /// Log 系統設定。

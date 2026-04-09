@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace GUtility.Log
+namespace GUtility.Common.Log
 {
     /// <summary>
     /// 提供外部呼叫的 Log 入口。

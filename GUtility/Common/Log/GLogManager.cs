@@ -3,9 +3,9 @@ using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.IO;
 using System.Threading;
-using GUtility.Log.Writers;
+using GUtility.Common.Log.Writers;
 
-namespace GUtility.Log
+namespace GUtility.Common.Log
 {
     /// <summary>
     /// Log 管理核心：

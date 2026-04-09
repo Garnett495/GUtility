@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using GUtility.Log;
+using GUtility.Common.Log;
 
 namespace GUtility.Examples
 {
