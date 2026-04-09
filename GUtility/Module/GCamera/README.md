@@ -31,6 +31,12 @@
 - `Basler pylon SDK`
 - `Basler.Pylon.dll`
 
+Pylon下載連結:
+https://www.baslerweb.com/zh-tw/downloads/software/3922788174/
+
+Basler Software 官網連結:
+https://www.baslerweb.com/zh-tw/downloads/software/
+
 ⚠️ 注意：
 - ❌ 無法透過 NuGet 安裝
 - ✔ 必須安裝完整 SDK（含 .NET API）
