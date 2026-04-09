@@ -167,12 +167,6 @@ options.SearchPatterns = new List<string>
 };
 ```
 
-## 延伸建議（進階優化）
-🔒 白名單資料夾（不刪某些路徑）
-📁 先刪整個日期資料夾（效能更好）
-📊 加入 log 紀錄清理歷史
-🧠 設備 Busy 時暫停 purge
-📉 加入最低保留檔案數（避免全刪）
 
 
 ## License
