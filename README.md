@@ -235,10 +235,6 @@ IDE：Visual Studio 2015
 
 MIT License
 
-## License
-
-MIT License
-
 Copyright (c) 2026 GUtility
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
