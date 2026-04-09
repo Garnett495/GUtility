@@ -38,7 +38,7 @@
       <HintPath>..\..\GUtility_0323\GUtility\DLLs\Basler.Pylon.dll</HintPath>
     </Reference>
     <Reference Include="NModbus, Version=3.0.81.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\TSMC_15B_PVD Nozzle CCD\Software\PVDNozzleInspector_0306\packages\NModbus.3.0.81\lib\net46\NModbus.dll</HintPath>
+      <HintPath>..\packages\NModbus.3.0.81\lib\net46\NModbus.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -66,9 +66,6 @@
     <Compile Include="Modbus\ModbusBase.cs" />
     <Compile Include="Modbus\ModbusClient.cs" />
     <Compile Include="Modbus\ModbusServer.cs" />
-    <Compile Include="Module\AIOModule\AIODeviceController.cs" />
-    <Compile Include="Module\AIOModule\Devices\DAM8DAController.cs" />
-    <Compile Include="Module\AIOModule\ModbusAODeviceBase.cs" />
     <Compile Include="Module\GCamera\Abstraction\ICamera.cs" />
     <Compile Include="Module\GCamera\Abstraction\ICameraFactory.cs" />
     <Compile Include="Module\GCamera\Core\CameraBase.cs" />
@@ -88,6 +85,32 @@
     <Compile Include="Module\GCamera\Providers\Basler\BaslerCamera.cs" />
     <Compile Include="Module\GCamera\Providers\Dalsa\DalsaCamera.cs" />
     <Compile Include="Module\GCamera\Providers\Hikvision\HikCamera.cs" />
+    <Compile Include="Module\IO\Abstractions\IGAioDevice.cs" />
+    <Compile Include="Module\IO\Abstractions\IGDevice.cs" />
+    <Compile Include="Module\IO\Abstractions\IGDioDevice.cs" />
+    <Compile Include="Module\IO\Abstractions\IGModbusDevice.cs" />
+    <Compile Include="Module\IO\Abstractions\IGModbusTransport.cs" />
+    <Compile Include="Module\IO\Base\GAioDeviceBase.cs" />
+    <Compile Include="Module\IO\Base\GDeviceBase.cs" />
+    <Compile Include="Module\IO\Base\GDioDeviceBase.cs" />
+    <Compile Include="Module\IO\Base\GModbusDeviceBase.cs" />
+    <Compile Include="Module\IO\Communication\ModbusTcpTransport.cs" />
+    <Compile Include="Module\IO\Devices\DAM0888\DAM0888Device.cs" />
+    <Compile Include="Module\IO\Devices\DAM0888\DAM0888RegisterMap.cs" />
+    <Compile Include="Module\IO\Devices\DAM8DA\DAM8DADevice.cs" />
+    <Compile Include="Module\IO\Devices\DAM8DA\DAM8DARegisterMap.cs" />
+    <Compile Include="Module\IO\Enums\GAnalogRangeType.cs" />
+    <Compile Include="Module\IO\Enums\GDeviceConnectionState.cs" />
+    <Compile Include="Module\IO\Enums\GDeviceType.cs" />
+    <Compile Include="Module\IO\Enums\GIoDirection.cs" />
+    <Compile Include="Module\IO\Example\SimpleUseSample.cs" />
+    <Compile Include="Module\IO\Management\GIoManager.cs" />
+    <Compile Include="Module\IO\Models\GAioChannel.cs" />
+    <Compile Include="Module\IO\Models\GDeviceConfig.cs" />
+    <Compile Include="Module\IO\Models\GDeviceStatus.cs" />
+    <Compile Include="Module\IO\Models\GDioPoint.cs" />
+    <Compile Include="Module\IO\Models\GIoSnapshot.cs" />
+    <Compile Include="Module\IO\Models\GModbusDeviceConfig.cs" />
     <Compile Include="MotorController\CommandScheduler.cs" />
     <Compile Include="MotorController\ModbusTransport.cs" />
     <Compile Include="MotorController\MotorAgent.cs" />
@@ -100,14 +123,14 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
     <Folder Include="Ini\" />
     <Folder Include="Module\GCamera\Buffer\" />
     <Folder Include="Module\GCamera\Converters\" />
     <Folder Include="Module\GCamera\Diagnostics\" />
     <Folder Include="Module\GCamera\Exceptions\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
