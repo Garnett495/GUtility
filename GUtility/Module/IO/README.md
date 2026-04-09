@@ -15,13 +15,14 @@
 ```
 
 ## 架構設計
+```
 GDeviceBase
     ↓
 GModbusDeviceBase
     ↓
 ├── GDioDeviceBase   → DIO設備
 └── GAioDeviceBase   → AIO設備
-
+```
 
 ## 設計概念
 1. 分層架構
@@ -85,6 +86,7 @@ GUtility.Module.IO
 
 ## 使用範例
 1. 建立 Modbus 設定
+```csharp
 var config = new GModbusDeviceConfig()
 {
     DeviceName = "DAM0888_1",
@@ -92,33 +94,50 @@ var config = new GModbusDeviceConfig()
     IP = "192.168.1.100",
     Port = 502
 };
+```
 
 2. 建立 Transport
+```csharp
 IGModbusTransport transport = new ModbusTcpTransport();
+```
 
 3. 建立 DIO 裝置（DAM0888）
+```csharp
 var dio = new DAM0888(config, transport);
+```
 
 3. 連線設備
+```csharp
 bool isConnected = dio.Connect();
+```
 
 4. 更新資料（重要）
+```csharp
 dio.Refresh();
+```
 
 5. 讀取 DI / DO
+```csharp
 bool di0 = dio.ReadDI(0);
 bool do0 = dio.ReadDO(0);
+```
 
 6. 控制 DO
+```csharp
 dio.WriteDO(0, true);
+```
 
 7. 讀取全部
+```csharp
 bool[] allDI = dio.ReadAllDI();
 bool[] allDO = dio.ReadAllDO();
+```
 
 ## 使用注意事項
 - 必須呼叫 `Refresh()`
+```csharp
 dio.Refresh();
+```
 
 否則：
 `ReadDI()` / `ReadDO()` 會拿到舊資料
@@ -137,9 +156,12 @@ dio.Refresh();
 以新增一個新設備為例：
 
 1. 繼承 `Base`
+```csharp
 public class MyDioDevice : GDioDeviceBase
+```
 
 2. 實作 `Refresh()`
+```csharp
 public override void Refresh()
 {
     var di = Transport.ReadDiscreteInputs(...);
@@ -148,12 +170,14 @@ public override void Refresh()
     SetDiSnapshot(di);
     SetDoSnapshot(do);
 }
+```
 3. 實作 `WriteDO()`
+```csharp
 public override void WriteDO(int channel, bool value)
 {
     Transport.WriteSingleCoil(...);
 }
-
+```
 
 ## 未來擴展方向
  IO Manager（自動輪詢）
