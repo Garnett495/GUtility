@@ -43,6 +43,7 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -55,6 +56,20 @@
     <Compile Include="Common\AutoPurge\AutoImagePurgeResult.cs" />
     <Compile Include="Common\AutoPurge\AutoImagePurgeService.cs" />
     <Compile Include="Common\AutoPurge\Example.cs" />
+    <Compile Include="Common\Ini\Abstractions\IGIniFile.cs" />
+    <Compile Include="Common\Ini\Abstractions\IGIniSerializer.cs" />
+    <Compile Include="Common\Ini\Core\GIniFile.cs" />
+    <Compile Include="Common\Ini\Core\GIniSection.cs" />
+    <Compile Include="Common\Ini\Core\GIniValueConverter.cs" />
+    <Compile Include="Common\Ini\Example\BasicIniExample.cs" />
+    <Compile Include="Common\Ini\Example\EquipmentConfigExample.cs" />
+    <Compile Include="Common\Ini\Example\TypedReadWriteExample.cs" />
+    <Compile Include="Common\Ini\Exceptions\GIniException.cs" />
+    <Compile Include="Common\Ini\Exceptions\GIniFileNotFoundException.cs" />
+    <Compile Include="Common\Ini\Exceptions\GIniParseException.cs" />
+    <Compile Include="Common\Ini\Models\GIniKeyInfo.cs" />
+    <Compile Include="Common\Ini\Models\GIniOptions.cs" />
+    <Compile Include="Common\Ini\Serialization\GIniObjectSerializer.cs" />
     <Compile Include="Common\Log\Examples\Example_BasicUsage.cs" />
     <Compile Include="Common\Log\Examples\Example_ExceptionUsage.cs" />
     <Compile Include="Common\Log\Examples\Example_PropertiesUsage.cs" />
@@ -67,6 +82,30 @@
     <Compile Include="Common\Log\Writters\GConsoleLogWriter.cs" />
     <Compile Include="Common\Log\Writters\GFileLogWriter.cs" />
     <Compile Include="Common\Log\Writters\GUiLogWriter.cs" />
+    <Compile Include="Common\Recipe\Application\GRecipeService.cs" />
+    <Compile Include="Common\Recipe\Comparison\GRecipeComparer.cs" />
+    <Compile Include="Common\Recipe\Core\GCompareOptions.cs" />
+    <Compile Include="Common\Recipe\Core\GRecipeDifference.cs" />
+    <Compile Include="Common\Recipe\Core\GRecipeDocument.cs" />
+    <Compile Include="Common\Recipe\Core\GRecipeFormat.cs" />
+    <Compile Include="Common\Recipe\Example\GRecipeBasicUsageExample.cs" />
+    <Compile Include="Common\Recipe\Example\GRecipeCompareExample.cs" />
+    <Compile Include="Common\Recipe\Example\GRecipeCopyExample.cs" />
+    <Compile Include="Common\Recipe\Example\GRecipeExampleRunner.cs" />
+    <Compile Include="Common\Recipe\Example\GRecipeSampleModels.cs" />
+    <Compile Include="Common\Recipe\Exceptions\GRecipeComparisonException.cs" />
+    <Compile Include="Common\Recipe\Exceptions\GRecipeException.cs" />
+    <Compile Include="Common\Recipe\Exceptions\GRecipeLoadException.cs" />
+    <Compile Include="Common\Recipe\Exceptions\GRecipeSaveException.cs" />
+    <Compile Include="Common\Recipe\Exceptions\GRecipeUpgradeException.cs" />
+    <Compile Include="Common\Recipe\Serialization\GJsonRecipeSerializer.cs" />
+    <Compile Include="Common\Recipe\Serialization\GXmlRecipeSerializer.cs" />
+    <Compile Include="Common\Recipe\Serialization\IGRecipeSerializer.cs" />
+    <Compile Include="Common\Recipe\Storage\GFileRecipeStorage.cs" />
+    <Compile Include="Common\Recipe\Storage\IGRecipeStorage.cs" />
+    <Compile Include="Common\Recipe\Upgrade\GRecipeUpgradeContext.cs" />
+    <Compile Include="Common\Recipe\Upgrade\GRecipeUpgradeManager.cs" />
+    <Compile Include="Common\Recipe\Upgrade\IGRecipeUpgrader.cs" />
     <Compile Include="Modbus\ModbusBase.cs" />
     <Compile Include="Modbus\ModbusClient.cs" />
     <Compile Include="Modbus\ModbusServer.cs" />
@@ -126,13 +165,7 @@
     <Compile Include="MotorController\OrientalMotorProtocol.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Common\Ini\" />
-    <Folder Include="Module\GCamera\Buffer\" />
-    <Folder Include="Module\GCamera\Converters\" />
-    <Folder Include="Module\GCamera\Diagnostics\" />
-    <Folder Include="Module\GCamera\Exceptions\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
