@@ -55,6 +55,7 @@ namespace GUtility.Common.Progress
                 _formReadyEvent.Set();
 
                 Application.Run(_form);
+                _isShown = false;
             });
 
             _uiThread.IsBackground = true;
@@ -142,18 +143,24 @@ namespace GUtility.Common.Progress
             if (!_isShown || _form == null)
                 return;
 
+            GProgressForm form = _form;
+
             try
             {
-                if (_form.InvokeRequired)
+                if (form.IsDisposed)
+                    return;
+
+                if (form.InvokeRequired)
                 {
-                    _form.BeginInvoke(new Action(delegate
+                    form.BeginInvoke(new Action(delegate
                     {
-                        _form.Close();
+                        if (!form.IsDisposed)
+                            form.Close();
                     }));
                 }
                 else
                 {
-                    _form.Close();
+                    form.Close();
                 }
             }
             catch

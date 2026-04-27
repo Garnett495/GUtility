@@ -1,10 +1,242 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Garnett\\Git\\GUtility\\",
+  "WorkspaceRootPath": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|d:\\garnett\\git\\gutility\\gutility\\module\\gcamera\\providers\\basler\\baslercamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\common\\progress\\gprogressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\common\\progress\\gprogressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\common\\progress\\gprogressform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\common\\progress\\gprogressform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|d:\\garnett\\projects\\gutility\\gutility_0427_\u65B0\u589Eprograssbar\\gutility\\common\\progress\\gprogressform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\common\\progress\\gprogressform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Progress\\Example\\GProgressExample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GUtility\\Common\\Progress\\Example\\GProgressExample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\common\\progress\\gprogressinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\common\\progress\\gprogressinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\common\\network\\gnetworkadapterrestarter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\common\\network\\gnetworkadapterrestarter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\common\\network\\example\\networkadapterrestartexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\common\\network\\example\\networkadapterrestartexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\common\\network\\gnetworkadapterrestartresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\common\\network\\gnetworkadapterrestartresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\common\\network\\gnetworkadapterrestartoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\common\\network\\gnetworkadapterrestartoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\common\\ini\\example\\equipmentconfigexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\common\\ini\\example\\equipmentconfigexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\common\\ini\\example\\typedreadwriteexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\common\\ini\\example\\typedreadwriteexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\common\\ini\\example\\basiciniexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\common\\ini\\example\\basiciniexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\common\\ini\\serialization\\giniobjectserializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\common\\ini\\serialization\\giniobjectserializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\common\\ini\\core\\ginifile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\common\\ini\\core\\ginifile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\common\\ini\\core\\ginivalueconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\common\\ini\\core\\ginivalueconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\common\\ini\\core\\ginisection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\common\\ini\\core\\ginisection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\common\\ini\\exceptions\\giniparseexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\common\\ini\\exceptions\\giniparseexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\common\\ini\\exceptions\\ginifilenotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\common\\ini\\exceptions\\ginifilenotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\common\\ini\\models\\ginioptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\common\\ini\\models\\ginioptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\common\\ini\\models\\ginikeyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\common\\ini\\models\\ginikeyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\common\\ini\\exceptions\\giniexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\common\\ini\\exceptions\\giniexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\common\\ini\\abstractions\\iginiserializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\common\\ini\\abstractions\\iginiserializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\common\\ini\\abstractions\\iginifile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\common\\ini\\abstractions\\iginifile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\module\\gcamera\\providers\\basler\\baslercamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\module\\gcamera\\providers\\basler\\baslercamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\module\\gcamera\\models\\cameraconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\module\\gcamera\\models\\cameraconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\module\\gcamera\\example\\basicusage\\camerabasicexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\module\\gcamera\\example\\basicusage\\camerabasicexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\motorcontroller\\commandscheduler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\motorcontroller\\commandscheduler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\module\\io\\example\\simpleusesample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\module\\io\\example\\simpleusesample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\module\\gcamera\\abstraction\\icamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\module\\gcamera\\abstraction\\icamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\module\\gcamera\\core\\cameraparameternames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\module\\gcamera\\core\\cameraparameternames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\module\\gcamera\\core\\cameramanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\module\\gcamera\\core\\cameramanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\module\\gcamera\\core\\camerafactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\module\\gcamera\\core\\camerafactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\module\\gcamera\\core\\camerabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\module\\gcamera\\core\\camerabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\module\\gcamera\\example\\multicamera\\multicameraexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\module\\gcamera\\example\\multicamera\\multicameraexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\common\\recipe\\serialization\\gjsonrecipeserializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\common\\recipe\\serialization\\gjsonrecipeserializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\common\\recipe\\upgrade\\grecipeupgrademanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\common\\recipe\\upgrade\\grecipeupgrademanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\common\\recipe\\upgrade\\grecipeupgradecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\common\\recipe\\upgrade\\grecipeupgradecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\common\\recipe\\upgrade\\igrecipeupgrader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\common\\recipe\\upgrade\\igrecipeupgrader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\common\\recipe\\exceptions\\grecipecomparisonexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\common\\recipe\\exceptions\\grecipecomparisonexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\common\\recipe\\exceptions\\grecipeupgradeexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\common\\recipe\\exceptions\\grecipeupgradeexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\common\\recipe\\exceptions\\grecipesaveexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\common\\recipe\\exceptions\\grecipesaveexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\common\\recipe\\exceptions\\grecipeloadexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\common\\recipe\\exceptions\\grecipeloadexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\common\\recipe\\exceptions\\grecipeexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\common\\recipe\\exceptions\\grecipeexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\common\\recipe\\example\\grecipeexamplerunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\common\\recipe\\example\\grecipeexamplerunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\common\\recipe\\example\\grecipecompareexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\common\\recipe\\example\\grecipecompareexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\common\\recipe\\example\\grecipecopyexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\common\\recipe\\example\\grecipecopyexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\common\\recipe\\example\\grecipebasicusageexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\common\\recipe\\example\\grecipebasicusageexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\common\\recipe\\example\\grecipesamplemodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\common\\recipe\\example\\grecipesamplemodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\common\\recipe\\application\\grecipeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\common\\recipe\\application\\grecipeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\common\\recipe\\comparison\\grecipecomparer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\common\\recipe\\comparison\\grecipecomparer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\common\\recipe\\storage\\gfilerecipestorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\common\\recipe\\storage\\gfilerecipestorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\motorcontroller\\orientalmotorprotocol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\motorcontroller\\orientalmotorprotocol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\common\\recipe\\storage\\igrecipestorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\common\\recipe\\storage\\igrecipestorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\common\\recipe\\serialization\\igrecipeserializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\common\\recipe\\serialization\\igrecipeserializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\common\\recipe\\serialization\\gxmlrecipeserializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\common\\recipe\\serialization\\gxmlrecipeserializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\common\\recipe\\core\\grecipeformat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\common\\recipe\\core\\grecipeformat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\common\\recipe\\core\\grecipedocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\common\\recipe\\core\\grecipedocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\common\\recipe\\core\\grecipedifference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\common\\recipe\\core\\grecipedifference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\gutility\\common\\recipe\\core\\gcompareoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0118BF80-40E9-4459-BF9F-549D00B8D8C7}|GUtility\\GUtility.csproj|solutionrelative:gutility\\common\\recipe\\core\\gcompareoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,20 +246,718 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BaslerCamera.cs",
-              "DocumentMoniker": "D:\\Garnett\\Git\\GUtility\\GUtility\\Module\\GCamera\\Providers\\Basler\\BaslerCamera.cs",
-              "RelativeDocumentMoniker": "GUtility\\Module\\GCamera\\Providers\\Basler\\BaslerCamera.cs",
-              "ToolTip": "D:\\Garnett\\Git\\GUtility\\GUtility\\Module\\GCamera\\Providers\\Basler\\BaslerCamera.cs",
-              "RelativeToolTip": "GUtility\\Module\\GCamera\\Providers\\Basler\\BaslerCamera.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAXAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "GProgressForm.cs [\u8A2D\u8A08]",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Progress\\GProgressForm.cs",
+              "RelativeDocumentMoniker": "GUtility\\Common\\Progress\\GProgressForm.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Progress\\GProgressForm.cs [\u8A2D\u8A08]",
+              "RelativeToolTip": "GUtility\\Common\\Progress\\GProgressForm.cs [\u8A2D\u8A08]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T08:37:17.24Z",
+              "WhenOpened": "2026-04-27T10:38:52.366Z",
+              "EditorCaption": " [\u8A2D\u8A08]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GProgressExample.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Progress\\Example\\GProgressExample.cs",
+              "RelativeDocumentMoniker": "GUtility\\Common\\Progress\\Example\\GProgressExample.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Progress\\Example\\GProgressExample.cs",
+              "RelativeToolTip": "GUtility\\Common\\Progress\\Example\\GProgressExample.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T10:34:03.799Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GProgressForm.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Progress\\GProgressForm.cs",
+              "RelativeDocumentMoniker": "GUtility\\Common\\Progress\\GProgressForm.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Progress\\GProgressForm.cs",
+              "RelativeToolTip": "GUtility\\Common\\Progress\\GProgressForm.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAnwCsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T10:21:29.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GProgressService.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Progress\\GProgressService.cs",
+              "RelativeDocumentMoniker": "GUtility\\Common\\Progress\\GProgressService.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Progress\\GProgressService.cs",
+              "RelativeToolTip": "GUtility\\Common\\Progress\\GProgressService.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAMwDkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T10:14:08.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GProgressInfo.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Progress\\GProgressInfo.cs",
+              "RelativeDocumentMoniker": "GUtility\\Common\\Progress\\GProgressInfo.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Progress\\GProgressInfo.cs",
+              "RelativeToolTip": "GUtility\\Common\\Progress\\GProgressInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T10:13:50.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NetworkAdapterRestartExample.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Network\\Example\\NetworkAdapterRestartExample.cs",
+              "RelativeDocumentMoniker": "GUtility\\Common\\Network\\Example\\NetworkAdapterRestartExample.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Network\\Example\\NetworkAdapterRestartExample.cs",
+              "RelativeToolTip": "GUtility\\Common\\Network\\Example\\NetworkAdapterRestartExample.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwCIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T07:21:46.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GNetworkAdapterRestartOptions.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Network\\GNetworkAdapterRestartOptions.cs",
+              "RelativeDocumentMoniker": "GUtility\\Common\\Network\\GNetworkAdapterRestartOptions.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Network\\GNetworkAdapterRestartOptions.cs",
+              "RelativeToolTip": "GUtility\\Common\\Network\\GNetworkAdapterRestartOptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T07:20:13.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GNetworkAdapterRestartResult.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Network\\GNetworkAdapterRestartResult.cs",
+              "RelativeDocumentMoniker": "GUtility\\Common\\Network\\GNetworkAdapterRestartResult.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Network\\GNetworkAdapterRestartResult.cs",
+              "RelativeToolTip": "GUtility\\Common\\Network\\GNetworkAdapterRestartResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAywA8AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T07:20:07.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GNetworkAdapterRestarter.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Network\\GNetworkAdapterRestarter.cs",
+              "RelativeDocumentMoniker": "GUtility\\Common\\Network\\GNetworkAdapterRestarter.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Network\\GNetworkAdapterRestarter.cs",
+              "RelativeToolTip": "GUtility\\Common\\Network\\GNetworkAdapterRestarter.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAwwEQAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T07:19:49.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GIniSection.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Ini\\Core\\GIniSection.cs",
+              "RelativeDocumentMoniker": "GUtility\\Common\\Ini\\Core\\GIniSection.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Ini\\Core\\GIniSection.cs",
+              "RelativeToolTip": "GUtility\\Common\\Ini\\Core\\GIniSection.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwAsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T09:18:11.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GIniValueConverter.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Ini\\Core\\GIniValueConverter.cs",
+              "RelativeDocumentMoniker": "GUtility\\Common\\Ini\\Core\\GIniValueConverter.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Ini\\Core\\GIniValueConverter.cs",
+              "RelativeToolTip": "GUtility\\Common\\Ini\\Core\\GIniValueConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T09:18:17.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GIniFile.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Ini\\Core\\GIniFile.cs",
+              "RelativeDocumentMoniker": "GUtility\\Common\\Ini\\Core\\GIniFile.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Ini\\Core\\GIniFile.cs",
+              "RelativeToolTip": "GUtility\\Common\\Ini\\Core\\GIniFile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T09:18:04.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GIniObjectSerializer.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Ini\\Serialization\\GIniObjectSerializer.cs",
+              "RelativeDocumentMoniker": "GUtility\\Common\\Ini\\Serialization\\GIniObjectSerializer.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Ini\\Serialization\\GIniObjectSerializer.cs",
+              "RelativeToolTip": "GUtility\\Common\\Ini\\Serialization\\GIniObjectSerializer.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T09:19:09.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BasicIniExample.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Ini\\Example\\BasicIniExample.cs",
+              "RelativeDocumentMoniker": "GUtility\\Common\\Ini\\Example\\BasicIniExample.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Ini\\Example\\BasicIniExample.cs",
+              "RelativeToolTip": "GUtility\\Common\\Ini\\Example\\BasicIniExample.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T09:19:29.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TypedReadWriteExample.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Ini\\Example\\TypedReadWriteExample.cs",
+              "RelativeDocumentMoniker": "GUtility\\Common\\Ini\\Example\\TypedReadWriteExample.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Ini\\Example\\TypedReadWriteExample.cs",
+              "RelativeToolTip": "GUtility\\Common\\Ini\\Example\\TypedReadWriteExample.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T09:19:43.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EquipmentConfigExample.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Ini\\Example\\EquipmentConfigExample.cs",
+              "RelativeDocumentMoniker": "GUtility\\Common\\Ini\\Example\\EquipmentConfigExample.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Ini\\Example\\EquipmentConfigExample.cs",
+              "RelativeToolTip": "GUtility\\Common\\Ini\\Example\\EquipmentConfigExample.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T09:19:35.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GIniParseException.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Ini\\Exceptions\\GIniParseException.cs",
+              "RelativeDocumentMoniker": "GUtility\\Common\\Ini\\Exceptions\\GIniParseException.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Ini\\Exceptions\\GIniParseException.cs",
+              "RelativeToolTip": "GUtility\\Common\\Ini\\Exceptions\\GIniParseException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T09:18:53.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GIniFileNotFoundException.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Ini\\Exceptions\\GIniFileNotFoundException.cs",
+              "RelativeDocumentMoniker": "GUtility\\Common\\Ini\\Exceptions\\GIniFileNotFoundException.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Ini\\Exceptions\\GIniFileNotFoundException.cs",
+              "RelativeToolTip": "GUtility\\Common\\Ini\\Exceptions\\GIniFileNotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T09:18:46.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GIniOptions.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Ini\\Models\\GIniOptions.cs",
+              "RelativeDocumentMoniker": "GUtility\\Common\\Ini\\Models\\GIniOptions.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Ini\\Models\\GIniOptions.cs",
+              "RelativeToolTip": "GUtility\\Common\\Ini\\Models\\GIniOptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T09:18:26.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GIniKeyInfo.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Ini\\Models\\GIniKeyInfo.cs",
+              "RelativeDocumentMoniker": "GUtility\\Common\\Ini\\Models\\GIniKeyInfo.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Ini\\Models\\GIniKeyInfo.cs",
+              "RelativeToolTip": "GUtility\\Common\\Ini\\Models\\GIniKeyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T09:18:33.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "GIniException.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Ini\\Exceptions\\GIniException.cs",
+              "RelativeDocumentMoniker": "GUtility\\Common\\Ini\\Exceptions\\GIniException.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Ini\\Exceptions\\GIniException.cs",
+              "RelativeToolTip": "GUtility\\Common\\Ini\\Exceptions\\GIniException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T09:18:40.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IGIniSerializer.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Ini\\Abstractions\\IGIniSerializer.cs",
+              "RelativeDocumentMoniker": "GUtility\\Common\\Ini\\Abstractions\\IGIniSerializer.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Ini\\Abstractions\\IGIniSerializer.cs",
+              "RelativeToolTip": "GUtility\\Common\\Ini\\Abstractions\\IGIniSerializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T09:17:54.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IGIniFile.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Ini\\Abstractions\\IGIniFile.cs",
+              "RelativeDocumentMoniker": "GUtility\\Common\\Ini\\Abstractions\\IGIniFile.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Ini\\Abstractions\\IGIniFile.cs",
+              "RelativeToolTip": "GUtility\\Common\\Ini\\Abstractions\\IGIniFile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T09:17:47.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "BaslerCamera.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Module\\GCamera\\Providers\\Basler\\BaslerCamera.cs",
+              "RelativeDocumentMoniker": "GUtility\\Module\\GCamera\\Providers\\Basler\\BaslerCamera.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Module\\GCamera\\Providers\\Basler\\BaslerCamera.cs",
+              "RelativeToolTip": "GUtility\\Module\\GCamera\\Providers\\Basler\\BaslerCamera.cs",
+              "ViewState": "AgIAAAIBAAAAAAAAAAA1wO8BAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T06:30:29.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CameraConfig.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Module\\GCamera\\Models\\CameraConfig.cs",
+              "RelativeDocumentMoniker": "GUtility\\Module\\GCamera\\Models\\CameraConfig.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Module\\GCamera\\Models\\CameraConfig.cs",
+              "RelativeToolTip": "GUtility\\Module\\GCamera\\Models\\CameraConfig.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAvwCsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T06:30:17.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CommandScheduler.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\MotorController\\CommandScheduler.cs",
+              "RelativeDocumentMoniker": "GUtility\\MotorController\\CommandScheduler.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\MotorController\\CommandScheduler.cs",
+              "RelativeToolTip": "GUtility\\MotorController\\CommandScheduler.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAwwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T01:32:18.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ICamera.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Module\\GCamera\\Abstraction\\ICamera.cs",
+              "RelativeDocumentMoniker": "GUtility\\Module\\GCamera\\Abstraction\\ICamera.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Module\\GCamera\\Abstraction\\ICamera.cs",
+              "RelativeToolTip": "GUtility\\Module\\GCamera\\Abstraction\\ICamera.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T08:16:00.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CameraParameterNames.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Module\\GCamera\\Core\\CameraParameterNames.cs",
+              "RelativeDocumentMoniker": "GUtility\\Module\\GCamera\\Core\\CameraParameterNames.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Module\\GCamera\\Core\\CameraParameterNames.cs",
+              "RelativeToolTip": "GUtility\\Module\\GCamera\\Core\\CameraParameterNames.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T08:11:26.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CameraManager.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Module\\GCamera\\Core\\CameraManager.cs",
+              "RelativeDocumentMoniker": "GUtility\\Module\\GCamera\\Core\\CameraManager.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Module\\GCamera\\Core\\CameraManager.cs",
+              "RelativeToolTip": "GUtility\\Module\\GCamera\\Core\\CameraManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T08:11:19.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CameraFactory.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Module\\GCamera\\Core\\CameraFactory.cs",
+              "RelativeDocumentMoniker": "GUtility\\Module\\GCamera\\Core\\CameraFactory.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Module\\GCamera\\Core\\CameraFactory.cs",
+              "RelativeToolTip": "GUtility\\Module\\GCamera\\Core\\CameraFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T08:11:10.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CameraBase.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Module\\GCamera\\Core\\CameraBase.cs",
+              "RelativeDocumentMoniker": "GUtility\\Module\\GCamera\\Core\\CameraBase.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Module\\GCamera\\Core\\CameraBase.cs",
+              "RelativeToolTip": "GUtility\\Module\\GCamera\\Core\\CameraBase.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAowB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T08:06:35.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "MultiCameraExample.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Module\\GCamera\\Example\\MultiCamera\\MultiCameraExample.cs",
+              "RelativeDocumentMoniker": "GUtility\\Module\\GCamera\\Example\\MultiCamera\\MultiCameraExample.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Module\\GCamera\\Example\\MultiCamera\\MultiCameraExample.cs",
+              "RelativeToolTip": "GUtility\\Module\\GCamera\\Example\\MultiCamera\\MultiCameraExample.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T08:06:03.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CameraBasicExample.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Module\\GCamera\\Example\\BasicUsage\\CameraBasicExample.cs",
+              "RelativeDocumentMoniker": "GUtility\\Module\\GCamera\\Example\\BasicUsage\\CameraBasicExample.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Module\\GCamera\\Example\\BasicUsage\\CameraBasicExample.cs",
+              "RelativeToolTip": "GUtility\\Module\\GCamera\\Example\\BasicUsage\\CameraBasicExample.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T08:04:52.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "SimpleUseSample.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Module\\IO\\Example\\SimpleUseSample.cs",
+              "RelativeDocumentMoniker": "GUtility\\Module\\IO\\Example\\SimpleUseSample.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Module\\IO\\Example\\SimpleUseSample.cs",
+              "RelativeToolTip": "GUtility\\Module\\IO\\Example\\SimpleUseSample.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACMAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T08:24:09.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "GRecipeUpgradeManager.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Recipe\\Upgrade\\GRecipeUpgradeManager.cs",
+              "RelativeDocumentMoniker": "GUtility\\Common\\Recipe\\Upgrade\\GRecipeUpgradeManager.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Recipe\\Upgrade\\GRecipeUpgradeManager.cs",
+              "RelativeToolTip": "GUtility\\Common\\Recipe\\Upgrade\\GRecipeUpgradeManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T10:16:14.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "GRecipeUpgradeContext.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Recipe\\Upgrade\\GRecipeUpgradeContext.cs",
+              "RelativeDocumentMoniker": "GUtility\\Common\\Recipe\\Upgrade\\GRecipeUpgradeContext.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Recipe\\Upgrade\\GRecipeUpgradeContext.cs",
+              "RelativeToolTip": "GUtility\\Common\\Recipe\\Upgrade\\GRecipeUpgradeContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T10:15:54.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IGRecipeUpgrader.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Recipe\\Upgrade\\IGRecipeUpgrader.cs",
+              "RelativeDocumentMoniker": "GUtility\\Common\\Recipe\\Upgrade\\IGRecipeUpgrader.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Recipe\\Upgrade\\IGRecipeUpgrader.cs",
+              "RelativeToolTip": "GUtility\\Common\\Recipe\\Upgrade\\IGRecipeUpgrader.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAQwCEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T10:15:36.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "GRecipeComparisonException.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Recipe\\Exceptions\\GRecipeComparisonException.cs",
+              "RelativeDocumentMoniker": "GUtility\\Common\\Recipe\\Exceptions\\GRecipeComparisonException.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Recipe\\Exceptions\\GRecipeComparisonException.cs",
+              "RelativeToolTip": "GUtility\\Common\\Recipe\\Exceptions\\GRecipeComparisonException.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAQwAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T10:15:16.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "GRecipeUpgradeException.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Recipe\\Exceptions\\GRecipeUpgradeException.cs",
+              "RelativeDocumentMoniker": "GUtility\\Common\\Recipe\\Exceptions\\GRecipeUpgradeException.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Recipe\\Exceptions\\GRecipeUpgradeException.cs",
+              "RelativeToolTip": "GUtility\\Common\\Recipe\\Exceptions\\GRecipeUpgradeException.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAQwAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T10:14:59.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "GJsonRecipeSerializer.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Recipe\\Serialization\\GJsonRecipeSerializer.cs",
+              "RelativeDocumentMoniker": "GUtility\\Common\\Recipe\\Serialization\\GJsonRecipeSerializer.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Recipe\\Serialization\\GJsonRecipeSerializer.cs",
+              "RelativeToolTip": "GUtility\\Common\\Recipe\\Serialization\\GJsonRecipeSerializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T08:40:29.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "GRecipeSaveException.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Recipe\\Exceptions\\GRecipeSaveException.cs",
+              "RelativeDocumentMoniker": "GUtility\\Common\\Recipe\\Exceptions\\GRecipeSaveException.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Recipe\\Exceptions\\GRecipeSaveException.cs",
+              "RelativeToolTip": "GUtility\\Common\\Recipe\\Exceptions\\GRecipeSaveException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T10:14:44.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "GRecipeLoadException.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Recipe\\Exceptions\\GRecipeLoadException.cs",
+              "RelativeDocumentMoniker": "GUtility\\Common\\Recipe\\Exceptions\\GRecipeLoadException.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Recipe\\Exceptions\\GRecipeLoadException.cs",
+              "RelativeToolTip": "GUtility\\Common\\Recipe\\Exceptions\\GRecipeLoadException.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T10:14:25.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "GRecipeException.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Recipe\\Exceptions\\GRecipeException.cs",
+              "RelativeDocumentMoniker": "GUtility\\Common\\Recipe\\Exceptions\\GRecipeException.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Recipe\\Exceptions\\GRecipeException.cs",
+              "RelativeToolTip": "GUtility\\Common\\Recipe\\Exceptions\\GRecipeException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T10:14:08.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "GRecipeExampleRunner.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Recipe\\Example\\GRecipeExampleRunner.cs",
+              "RelativeDocumentMoniker": "GUtility\\Common\\Recipe\\Example\\GRecipeExampleRunner.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Recipe\\Example\\GRecipeExampleRunner.cs",
+              "RelativeToolTip": "GUtility\\Common\\Recipe\\Example\\GRecipeExampleRunner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T09:31:40.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "GRecipeCompareExample.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Recipe\\Example\\GRecipeCompareExample.cs",
+              "RelativeDocumentMoniker": "GUtility\\Common\\Recipe\\Example\\GRecipeCompareExample.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Recipe\\Example\\GRecipeCompareExample.cs",
+              "RelativeToolTip": "GUtility\\Common\\Recipe\\Example\\GRecipeCompareExample.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAgwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T09:31:08.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "GRecipeCopyExample.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Recipe\\Example\\GRecipeCopyExample.cs",
+              "RelativeDocumentMoniker": "GUtility\\Common\\Recipe\\Example\\GRecipeCopyExample.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Recipe\\Example\\GRecipeCopyExample.cs",
+              "RelativeToolTip": "GUtility\\Common\\Recipe\\Example\\GRecipeCopyExample.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T09:30:50.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "GRecipeService.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Recipe\\Application\\GRecipeService.cs",
+              "RelativeDocumentMoniker": "GUtility\\Common\\Recipe\\Application\\GRecipeService.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Recipe\\Application\\GRecipeService.cs",
+              "RelativeToolTip": "GUtility\\Common\\Recipe\\Application\\GRecipeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T09:13:43.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "GRecipeComparer.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Recipe\\Comparison\\GRecipeComparer.cs",
+              "RelativeDocumentMoniker": "GUtility\\Common\\Recipe\\Comparison\\GRecipeComparer.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Recipe\\Comparison\\GRecipeComparer.cs",
+              "RelativeToolTip": "GUtility\\Common\\Recipe\\Comparison\\GRecipeComparer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T08:57:58.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "OrientalMotorProtocol.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\MotorController\\OrientalMotorProtocol.cs",
+              "RelativeDocumentMoniker": "GUtility\\MotorController\\OrientalMotorProtocol.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\MotorController\\OrientalMotorProtocol.cs",
+              "RelativeToolTip": "GUtility\\MotorController\\OrientalMotorProtocol.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T08:53:03.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "GFileRecipeStorage.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Recipe\\Storage\\GFileRecipeStorage.cs",
+              "RelativeDocumentMoniker": "GUtility\\Common\\Recipe\\Storage\\GFileRecipeStorage.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Recipe\\Storage\\GFileRecipeStorage.cs",
+              "RelativeToolTip": "GUtility\\Common\\Recipe\\Storage\\GFileRecipeStorage.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T08:46:08.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "GRecipeBasicUsageExample.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Recipe\\Example\\GRecipeBasicUsageExample.cs",
+              "RelativeDocumentMoniker": "GUtility\\Common\\Recipe\\Example\\GRecipeBasicUsageExample.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Recipe\\Example\\GRecipeBasicUsageExample.cs",
+              "RelativeToolTip": "GUtility\\Common\\Recipe\\Example\\GRecipeBasicUsageExample.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T08:16:10.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "GRecipeSampleModels.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Recipe\\Example\\GRecipeSampleModels.cs",
+              "RelativeDocumentMoniker": "GUtility\\Common\\Recipe\\Example\\GRecipeSampleModels.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Recipe\\Example\\GRecipeSampleModels.cs",
+              "RelativeToolTip": "GUtility\\Common\\Recipe\\Example\\GRecipeSampleModels.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAABAwAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T08:15:42.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "IGRecipeStorage.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Recipe\\Storage\\IGRecipeStorage.cs",
+              "RelativeDocumentMoniker": "GUtility\\Common\\Recipe\\Storage\\IGRecipeStorage.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Recipe\\Storage\\IGRecipeStorage.cs",
+              "RelativeToolTip": "GUtility\\Common\\Recipe\\Storage\\IGRecipeStorage.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAA8wD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T08:46:01.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "GRecipeFormat.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Recipe\\Core\\GRecipeFormat.cs",
+              "RelativeDocumentMoniker": "GUtility\\Common\\Recipe\\Core\\GRecipeFormat.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Recipe\\Core\\GRecipeFormat.cs",
+              "RelativeToolTip": "GUtility\\Common\\Recipe\\Core\\GRecipeFormat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T08:24:08.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "GRecipeDocument.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Recipe\\Core\\GRecipeDocument.cs",
+              "RelativeDocumentMoniker": "GUtility\\Common\\Recipe\\Core\\GRecipeDocument.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Recipe\\Core\\GRecipeDocument.cs",
+              "RelativeToolTip": "GUtility\\Common\\Recipe\\Core\\GRecipeDocument.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T08:24:28.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "GRecipeDifference.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Recipe\\Core\\GRecipeDifference.cs",
+              "RelativeDocumentMoniker": "GUtility\\Common\\Recipe\\Core\\GRecipeDifference.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Recipe\\Core\\GRecipeDifference.cs",
+              "RelativeToolTip": "GUtility\\Common\\Recipe\\Core\\GRecipeDifference.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T08:24:54.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "IGRecipeSerializer.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Recipe\\Serialization\\IGRecipeSerializer.cs",
+              "RelativeDocumentMoniker": "GUtility\\Common\\Recipe\\Serialization\\IGRecipeSerializer.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Recipe\\Serialization\\IGRecipeSerializer.cs",
+              "RelativeToolTip": "GUtility\\Common\\Recipe\\Serialization\\IGRecipeSerializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T08:27:29.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "GXmlRecipeSerializer.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Recipe\\Serialization\\GXmlRecipeSerializer.cs",
+              "RelativeDocumentMoniker": "GUtility\\Common\\Recipe\\Serialization\\GXmlRecipeSerializer.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Recipe\\Serialization\\GXmlRecipeSerializer.cs",
+              "RelativeToolTip": "GUtility\\Common\\Recipe\\Serialization\\GXmlRecipeSerializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T08:30:03.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "GCompareOptions.cs",
+              "DocumentMoniker": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Recipe\\Core\\GCompareOptions.cs",
+              "RelativeDocumentMoniker": "GUtility\\Common\\Recipe\\Core\\GCompareOptions.cs",
+              "ToolTip": "D:\\Garnett\\Projects\\GUtility\\GUtility_0427_\u65B0\u589EPrograssBar\\GUtility\\Common\\Recipe\\Core\\GCompareOptions.cs",
+              "RelativeToolTip": "GUtility\\Common\\Recipe\\Core\\GCompareOptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T08:25:22.665Z"
             }
           ]
         },
