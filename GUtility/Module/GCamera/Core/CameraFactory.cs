@@ -1,13 +1,14 @@
-﻿using GUtility.Module.GCamera.Abstraction;
-using GUtility.Module.GCamera.Enums;
-using GUtility.Module.GCamera.Providers.Basler;
-using GUtility.Module.GCamera.Providers.Dalsa;
-using GUtility.Module.GCamera.Providers.Hikvision;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
+using GUtility.Module.GCamera.Abstraction;
+using GUtility.Module.GCamera.Enums;
+using GUtility.Module.GCamera.Providers.Basler;
+using GUtility.Module.GCamera.Providers.Dalsa;
+using GUtility.Module.GCamera.Providers.Hikvision;
 
 
 namespace GUtility.Module.GCamera.Core

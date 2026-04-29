@@ -13,6 +13,7 @@ namespace GUtility.Module.GCamera.Models
     /// </summary>
     public class CameraConfig
     {
+        public object DeviceInfo { get; set; }
         public string CameraId { get; set; }
         public string CameraName { get; set; }
         public CameraBrand Brand { get; set; }
